@@ -29,14 +29,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="/static/js/main.js"></script>
     {% block head %}{% endblock %}
-    <title>{% block title %}{% endblock %} - Baalorlord</title>
+    <title>{% block title %}{% endblock %} - Squublix</title>
   </head>
   <body>
     <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item monument" href="/">
-          <img alt="Baalorlord" src="/static/misc/icon.png"/>
-          <span>Baalorlord</span>
+          <img alt="Squorb" src="/static/misc/icon.png"/>
+          <span>Squublix</span>
         </a>
 
         <a id="burger" role="button" class="navbar-burger"
@@ -58,23 +58,16 @@
 
             <div class="navbar-dropdown">
               <a class="navbar-item" href="/current">Current run</a>
-              <a class="navbar-item" href="/streaking">The Grandmastery Challenge</a>
-              <a class="navbar-item" href="/mods">Mods</a>
               <a class="navbar-item" href="/profile/0/runs">Run history</a>
             </div>
           </div>
 
           <a href="/commands" class="navbar-item">
             <i class="fa-solid fa-robot"></i>
-            Baalorbot
+            SquuBot (Baalorbot clone)
           </a>
 
-          <a href="https://shop.baalorlord.tv" class="navbar-item" target="_blank">
-            <i class="fa-solid fa-shop"></i>
-            Merch!
-          </a>
-
-          <a href="/youtube" class="navbar-item">
+          <a href="https://www.youtube.com/@jammrsdgc" class="navbar-item" target="_blank">
             <i class="fa-brands fa-youtube"></i>
             Youtube
           </a>
@@ -82,11 +75,6 @@
           <a href="https://twitch.tv/{{ config.twitch.channel }}" class="navbar-item" target="_blank">
             <i class="fa-brands fa-twitch"></i>
             Twitch
-          </a>
-
-          <a href="/discord" class="navbar-item">
-            <i class="fa-brands fa-discord"></i>
-            Discord
           </a>
         </div>
       </div>
@@ -99,7 +87,6 @@
         </p>
         <ul class="menu-list">
           <li><a href="/current">Current run</a></li>
-          <li><a href="/400">The 400 Challenge</a></li>
           <li><a href="/profile/0/runs">Run history</a></li>
         </ul>
         <p class="menu-label">
@@ -123,12 +110,9 @@
     </div>
     <footer id="footer" class="footer">
       {% block footer %}{% endblock %}
-      <a href="https://twitch.tv/{{ config.twitch.channel }}">Engage with the live show</a><br>
-      <a href="https://youtube.com/c/Baalorlord">Follow the YouTube channel</a><br>
-      <a href="https://youtube.com/c/BaalorlordArchives">Full stream archives</a><br>
-      <a href="{{ config.discord.invite_links.main }}">Join the discord</a><br>
-      <a href="{{ github }}">View the source code</a><br>
-      <a href="{{ github }}/issues">Report an issue</a><br>
+      <a href="https://twitch.tv/{{ config.twitch.channel }}" target="_blank">Engage with the live show</a><br>
+      <a href="{{ github }}" target="_blank">View the source code</a><br>
+      <a href="{{ github }}/issues" target="_blank">Report an issue</a><br>
       <a href="mailto:{{ config.server.business_email }}">Business enquiries</a>
     </footer>
   </body>
