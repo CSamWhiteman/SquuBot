@@ -581,7 +581,7 @@ class TwitchConn(TBot):
 
     async def event_new_chatter(self, user: Chatter, channel: Channel, message: str):
         if "youtube" in message.lower() or "yt" in message.lower():
-            pass  # await channel.send(f"Hello {user.display_name}! Glad to hear that you're enjoying the YouTube content, and welcome along baalorLove")
+            pass  # await channel.send(f"Hello {user.display_name}! Glad to hear that you're enjoying the YouTube content, and welcome along")
 
     async def event_raid(self, user: Chatter, channel: Channel, viewer_count: int):
         if viewer_count < 10:
@@ -1623,7 +1623,7 @@ async def handle_prediction(ctx: TContext, type: str = "info", *args: str):
             _prediction["type"] = values["type"]
             await start_prediction(ctx, title, outcomes, duration)
             await ctx.send(
-                "baalorWaffle Predict with your channel points on the outcome of this run! baalorWaffle"
+                "Predict with your channel points on the outcome of this run!"
             )
 
         case "info" | "cancel":
@@ -2117,7 +2117,7 @@ async def seen_relic(ctx: ContextType, save: Savefile, *relic: str):
             if data.pool:
                 s = " (or maybe it doesn't belong to this character)"
             replies.append(
-                f"We have already seen {data.name} this run{s}, and cannot get it again baalorHubris"
+                f"We have already seen {data.name} this run{s}, and cannot get it again"
             )
     await ctx.reply("\n".join(replies))
 
@@ -2469,8 +2469,8 @@ async def calculate_streak_cmd(ctx: ContextType):
 
 @command("pb")
 async def calculate_pb_cmd(ctx: ContextType, date_string: Optional[str] = None):
-    """Display Baalor's Personal Best streaks for Ascension 20 Heart kills for an optional date range."""
-    msg = "Baalor's PB A20H Streaks ({0.date_range_string}) | Rotating: {1.all_character_count} - Ironclad: {1.ironclad_count} - Silent: {1.silent_count} - Defect: {1.defect_count} - Watcher: {1.watcher_count}"
+    """Display Squob's Personal Best streaks for Ascension 20 Heart kills for an optional date range."""
+    msg = "Squob's PB Streaks ({0.date_range_string}) | Rotating: {1.all_character_count} - Ironclad: {1.ironclad_count} - Silent: {1.silent_count} - Defect: {1.defect_count} - Watcher: {1.watcher_count}"
     run_stats = None
     if date_string is None:
         run_stats = get_all_run_stats()
@@ -2521,7 +2521,7 @@ async def calculate_winrate_cmd(ctx: ContextType, date_string: Optional[str] = N
     ]
     rate = [0 if (a + b == 0) else a / (a + b) for a, b in zip(wins, losses)]
     await ctx.reply(
-        f"Baalor's winrate ({run_stats.date_range_string}): Overall: {rate[0]:.2%} - Ironclad: {rate[1]:.2%} - Silent: {rate[2]:.2%} - Defect: {rate[3]:.2%} - Watcher: {rate[4]:.2%}"
+        f"Squob's winrate ({run_stats.date_range_string}): Overall: {rate[0]:.2%} - Ironclad: {rate[1]:.2%} - Silent: {rate[2]:.2%} - Defect: {rate[3]:.2%} - Watcher: {rate[4]:.2%}"
     )
 
 
@@ -2555,7 +2555,7 @@ async def unmastered(ctx: ContextType, save: Savefile):
     elif len(final) == 1:
         msg = f"The final card left to master is {final[0]}."
     else:
-        msg = "Mastery Challenge Complete! Nothing left to master! baalorEZ baalorX2"
+        msg = "Mastery Challenge Complete! Nothing left to master!"
 
     if save is not None:
         save._cache["unmastered"] = msg
