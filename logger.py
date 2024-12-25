@@ -1,6 +1,8 @@
 import logging
 import os
 
+# TODO: These go to systemd/data, not app server / data.
+
 __all__ = ["logger"]
 
 os.makedirs("data", exist_ok=True)
