@@ -32,7 +32,8 @@ def load_file(filename: str) -> DotMap:
         return conf
 
 # Load the default configuration file
-config = load_file("./default-config.yml")
+basePath = "/opt/twitch/SquuBot/"
+config = load_file(basePath + "default-config.yml")
 
 
 # Determine which extra file to load values from.
@@ -41,7 +42,7 @@ if len(sys.argv) >= 2 and "unittest" not in sys.argv[0]: # there will be extra a
     extra_file = sys.argv[1]
 else:
     # Otherwise, use the development one.
-    extra_file = "./dev-config.yml"
+    extra_file = basePath + "/dev-config.yml"
 
     # But if it doesn't exist yet, be nice and make one for the user.
     if not os.path.exists(extra_file):

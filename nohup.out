@@ -1,0 +1,1690 @@
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'BOSS' and content 'M' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'M' and content '?' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node '?' and content 'R' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'R' and content '$' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node '$' and content 'M' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'M' and content 'T' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'T' and content 'M' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'M' and content 'R' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'R' and content 'E' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'E' and content '?' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'M' and content 'R' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'R' and content 'B' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'BOSS' and content 'M' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'M' and content '?' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node '$' and content 'M' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'M' and content 'R' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'R' and content 'M' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'M' and content 'E' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'E' and content 'T' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'T' and content 'R' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'R' and content '?' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'E' and content 'R' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'R' and content 'E' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'E' and content 'R' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::  WARNING - Error: the combination of map node 'R' and content 'B' is undefined (run: 1729367038)
+(2024-12-19 09:09:49) ::    ERROR - Actual: M    | Map: M
+Actual: ?    | Map: ?
+Actual: M    | Map: ?
+Actual: M    | Map: M
+Actual: M    | Map: M
+Actual: R    | Map: R
+Actual: ?    | Map: ?
+Actual: R    | Map: R
+Actual: T    | Map: T
+Actual: $    | Map: ?
+Actual: E    | Map: E
+Actual: M    | Map: ?
+Actual: E    | Map: E
+Actual: M    | Map: M
+Actual: R    | Map: R
+Actual: B    | Map: BOSS
+Actual: None | Map: None
+Actual: M    | Map: BOSS
+Actual: ?    | Map: M
+Actual: ?    | Map: ?
+Actual: M    | Map: ?
+Actual: ?    | Map: ?
+Actual: R    | Map: ?
+Actual: $    | Map: R
+Actual: M    | Map: $
+Actual: T    | Map: M
+Actual: M    | Map: T
+Actual: R    | Map: M
+Actual: E    | Map: R
+Actual: ?    | Map: E
+Actual: M    | Map: ?
+Actual: R    | Map: M
+Actual: B    | Map: R
+Actual: None | Map: None
+Actual: M    | Map: BOSS
+Actual: M    | Map: M
+Actual: ?    | Map: M
+Actual: $    | Map: ?
+Actual: M    | Map: $
+Actual: R    | Map: M
+Actual: M    | Map: R
+Actual: E    | Map: M
+Actual: T    | Map: E
+Actual: R    | Map: T
+Actual: ?    | Map: R
+Actual: E    | Map: ?
+Actual: R    | Map: E
+Actual: E    | Map: R
+Actual: R    | Map: E
+Actual: B    | Map: R
+Actual: B    | Map: BOSS
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+(2024-12-19 09:09:50) ::  WARNING - Error: the combination of map node 'BOSS' and content 'M' is undefined (run: 1729281856)
+(2024-12-19 09:09:50) ::  WARNING - Error: the combination of map node 'M' and content '?' is undefined (run: 1729281856)
+(2024-12-19 09:09:50) ::  WARNING - Error: the combination of map node 'E' and content 'M' is undefined (run: 1729281856)
+(2024-12-19 09:09:50) ::  WARNING - Error: the combination of map node 'M' and content 'E' is undefined (run: 1729281856)
+(2024-12-19 09:09:50) ::    ERROR - Actual: M    | Map: M
+Actual: ?    | Map: ?
+Actual: M    | Map: M
+Actual: M    | Map: M
+Actual: T    | Map: ?
+Actual: R    | Map: R
+Actual: M    | Map: M
+Actual: E    | Map: E
+Actual: T    | Map: T
+Actual: M    | Map: ?
+Actual: ?    | Map: ?
+Actual: M    | Map: M
+Actual: E    | Map: E
+Actual: $    | Map: $
+Actual: R    | Map: R
+Actual: B    | Map: BOSS
+Actual: None | Map: None
+Actual: M    | Map: M
+Actual: M    | Map: M
+Actual: ?    | Map: ?
+Actual: M    | Map: ?
+Actual: M    | Map: M
+Actual: E    | Map: E
+Actual: R    | Map: R
+Actual: M    | Map: M
+Actual: T    | Map: T
+Actual: T    | Map: ?
+Actual: R    | Map: R
+Actual: E    | Map: E
+Actual: M    | Map: M
+Actual: $    | Map: $
+Actual: R    | Map: R
+Actual: B    | Map: BOSS
+Actual: None | Map: None
+Actual: M    | Map: BOSS
+Actual: M    | Map: M
+Actual: ?    | Map: ?
+Actual: M    | Map: ?
+Actual: ?    | Map: M
+Actual: E    | Map: ?
+Actual: M    | Map: E
+Actual: E    | Map: M
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/gamedata.py", line 571, in get_boss_chest
+    return next(self._cache["boss_chest_iter"])
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 221, in block 'content'
+    alt="{{ relic.description() }}"
+  File "/opt/twitch/SquuBot/gamedata.py", line 1030, in description
+    for node in self.parser.path:
+  File "/opt/twitch/SquuBot/gamedata.py", line 943, in path
+    for node, cached in _get_nodes(self, self._cache.pop("old_path", None)):
+  File "/opt/twitch/SquuBot/gamedata.py", line 1608, in _get_nodes
+    value: NodeData = cls.from_parser(parser, floor)
+  File "/opt/twitch/SquuBot/gamedata.py", line 2136, in from_parser
+    boss_relics = parser.get_boss_chest()
+  File "/opt/twitch/SquuBot/gamedata.py", line 573, in get_boss_chest
+    return self._data[self.prefix + "boss_relics"][-1]
+IndexError: list index out of range
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 221, in block 'content'
+    alt="{{ relic.description() }}"
+  File "/opt/twitch/SquuBot/gamedata.py", line 1030, in description
+    for node in self.parser.path:
+  File "/opt/twitch/SquuBot/gamedata.py", line 943, in path
+    for node, cached in _get_nodes(self, self._cache.pop("old_path", None)):
+  File "/opt/twitch/SquuBot/gamedata.py", line 1608, in _get_nodes
+    value: NodeData = cls.from_parser(parser, floor)
+  File "/opt/twitch/SquuBot/gamedata.py", line 1633, in from_parser
+    raise ValueError("no fight result yet")
+ValueError: no fight result yet
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node 'BOSS' and content 'M' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node 'M' and content '?' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node 'M' and content 'R' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node 'R' and content 'M' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node 'M' and content 'E' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node 'E' and content 'T' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node 'T' and content 'M' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node '?' and content 'R' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node 'R' and content 'E' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node 'E' and content '$' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node '$' and content 'R' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::  WARNING - Error: the combination of map node 'R' and content 'B' is undefined (run: 1721173260)
+(2024-12-19 09:10:23) ::    ERROR - Actual: M    | Map: M
+Actual: M    | Map: ?
+Actual: M    | Map: M
+Actual: M    | Map: M
+Actual: ?    | Map: ?
+Actual: R    | Map: R
+Actual: ?    | Map: ?
+Actual: M    | Map: M
+Actual: T    | Map: T
+Actual: M    | Map: ?
+Actual: E    | Map: E
+Actual: R    | Map: R
+Actual: M    | Map: M
+Actual: M    | Map: M
+Actual: R    | Map: R
+Actual: B    | Map: BOSS
+Actual: None | Map: None
+Actual: M    | Map: M
+Actual: ?    | Map: ?
+Actual: ?    | Map: ?
+Actual: $    | Map: $
+Actual: M    | Map: M
+Actual: R    | Map: R
+Actual: E    | Map: E
+Actual: R    | Map: R
+Actual: T    | Map: T
+Actual: ?    | Map: ?
+Actual: M    | Map: M
+Actual: E    | Map: E
+Actual: R    | Map: R
+Actual: M    | Map: M
+Actual: R    | Map: R
+Actual: B    | Map: BOSS
+Actual: None | Map: None
+Actual: M    | Map: BOSS
+Actual: M    | Map: M
+Actual: ?    | Map: M
+Actual: ?    | Map: ?
+Actual: M    | Map: ?
+Actual: R    | Map: M
+Actual: M    | Map: R
+Actual: E    | Map: M
+Actual: T    | Map: E
+Actual: M    | Map: T
+Actual: ?    | Map: ?
+Actual: R    | Map: ?
+Actual: E    | Map: R
+Actual: $    | Map: E
+Actual: R    | Map: $
+Actual: B    | Map: R
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Ignoring exception in command: No command "bot" was found.:
+twitchio.ext.commands.errors.CommandNotFound: No command "bot" was found.
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Ignoring exception in command: No command "boss" was found.:
+twitchio.ext.commands.errors.CommandNotFound: No command "boss" was found.
+Ignoring exception in command: [Errno 2] No such file or directory: 'data/streak':
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/twitchio/ext/commands/core.py", line 217, in invoke
+    await self._callback(*args, *context.args, **context.kwargs)
+  File "/opt/twitch/SquuBot/wrapper.py", line 77, in caller
+    await func(ctx, *new_args)
+  File "/opt/twitch/SquuBot/server.py", line 2455, in calculate_streak_cmd
+    _get_set_display()
+  File "/opt/twitch/SquuBot/server.py", line 2424, in _get_set_display
+    with open(os.path.join("data", "streak")) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/streak'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/./main.py", line 5, in <module>
+    from aiohttp import web
+ModuleNotFoundError: No module named 'aiohttp'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Ignoring exception in command: 'username':
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/twitchio/ext/commands/core.py", line 217, in invoke
+    await self._callback(*args, *context.args, **context.kwargs)
+  File "/opt/twitch/SquuBot/server.py", line 210, in inner
+    msg = _formatter.vformat(msg, (), keywords)
+  File "/usr/local/lib/python3.10/string.py", line 165, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+  File "/usr/local/lib/python3.10/string.py", line 205, in _vformat
+    obj, arg_used = self.get_field(field_name, args, kwargs)
+  File "/usr/local/lib/python3.10/string.py", line 270, in get_field
+    obj = self.get_value(first, args, kwargs)
+  File "/usr/local/lib/python3.10/string.py", line 227, in get_value
+    return kwargs[key]
+KeyError: 'username'
+Ignoring exception in command: [Errno 2] No such file or directory: 'text/lift.txt':
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/twitchio/ext/commands/core.py", line 217, in invoke
+    await self._callback(*args, *context.args, **context.kwargs)
+  File "/opt/twitch/SquuBot/wrapper.py", line 72, in caller
+    await func(ctx, *new_args)
+  File "/opt/twitch/SquuBot/server.py", line 210, in inner
+    msg = _formatter.vformat(msg, (), keywords)
+  File "/usr/local/lib/python3.10/string.py", line 165, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+  File "/usr/local/lib/python3.10/string.py", line 218, in _vformat
+    result.append(self.format_field(obj, format_spec))
+  File "/opt/twitch/SquuBot/server.py", line 137, in format_field
+    return value(call_args)
+  File "/opt/twitch/SquuBot/server.py", line 221, in readline
+    with open(os.path.join("text", file), "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'text/lift.txt'
+Ignoring exception in command: 'NoneType' object is not subscriptable:
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/twitchio/ext/commands/core.py", line 217, in invoke
+    await self._callback(*args, *context.args, **context.kwargs)
+  File "/opt/twitch/SquuBot/wrapper.py", line 72, in caller
+    await func(ctx, *new_args)
+  File "/opt/twitch/SquuBot/server.py", line 210, in inner
+    msg = _formatter.vformat(msg, (), keywords)
+  File "/usr/local/lib/python3.10/string.py", line 165, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+  File "/usr/local/lib/python3.10/string.py", line 205, in _vformat
+    obj, arg_used = self.get_field(field_name, args, kwargs)
+  File "/usr/local/lib/python3.10/string.py", line 276, in get_field
+    obj = getattr(obj, i)
+  File "/opt/twitch/SquuBot/save.py", line 321, in upcoming_boss
+    return self._data["boss"]
+TypeError: 'NoneType' object is not subscriptable
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 248, in wrapped
+    response = render_template(
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 174, in render_template
+    response.text = render_string(template_name, request, context, app_key=app_key)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp_jinja2/__init__.py", line 137, in render_string
+    return template.render(context)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "Templates/run_single.jinja2", line 1, in top-level template code
+    {% extends "base.jinja2" %}
+  File "Templates/base.jinja2", line 107, in top-level template code
+    {% block content %}{% endblock %}
+  File "Templates/run_single.jinja2", line 202, in block 'content'
+    'Obtained on floor {{ floor }}<br>{{ run.get_floor(floor).escaped_description() }}'
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/jinja2/utils.py", line 83, in from_obj
+    if hasattr(obj, "jinja_pass_arg"):
+jinja2.exceptions.UndefinedError: 'None' has no attribute 'escaped_description'
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/./main.py", line 5, in <module>
+    from aiohttp import web
+ModuleNotFoundError: No module named 'aiohttp'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Ignoring exception in command: 'NoneType' object is not subscriptable:
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/twitchio/ext/commands/core.py", line 217, in invoke
+    await self._callback(*args, *context.args, **context.kwargs)
+  File "/opt/twitch/SquuBot/wrapper.py", line 72, in caller
+    await func(ctx, *new_args)
+  File "/opt/twitch/SquuBot/server.py", line 210, in inner
+    msg = _formatter.vformat(msg, (), keywords)
+  File "/usr/local/lib/python3.10/string.py", line 165, in vformat
+    result, _ = self._vformat(format_string, args, kwargs, used_args, 2)
+  File "/usr/local/lib/python3.10/string.py", line 205, in _vformat
+    obj, arg_used = self.get_field(field_name, args, kwargs)
+  File "/usr/local/lib/python3.10/string.py", line 276, in get_field
+    obj = getattr(obj, i)
+  File "/opt/twitch/SquuBot/save.py", line 321, in upcoming_boss
+    return self._data["boss"]
+TypeError: 'NoneType' object is not subscriptable
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Unhandled exception
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 435, in _handle_request
+    resp = await request_handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_app.py", line 504, in _handle
+    resp = await handler(request)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_urldispatcher.py", line 931, in _handle
+    raise self._http_exception
+aiohttp.web_exceptions.HTTPNotFound: Not Found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 514, in start
+    resp, reset = await task
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 440, in _handle_request
+    reset = await self.finish_response(request, resp, start_time)
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 599, in finish_response
+    self._request_parser.feed_data(self._message_tail)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Expected space after method'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadHttpMessage: 400, message='Pause on PRI/Upgrade'
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
+Error handling request
+Traceback (most recent call last):
+  File "/opt/twitch/SquuBot/.env/lib/python3.10/site-packages/aiohttp/web_protocol.py", line 334, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp/_http_parser.pyx", line 551, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message="Bad status line 'Invalid method encountered'"
