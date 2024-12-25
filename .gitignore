@@ -5,6 +5,8 @@ last_run
 /lib/
 /lib64
 /env/
+/.env/
+/.venv/
 !default-config.yml
 *-config.yml
 /static/bulma/
