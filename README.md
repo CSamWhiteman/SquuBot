@@ -1,9 +1,9 @@
-# TwitchCordBot
+# SquuBot
 
-This is a program meant as a Twitch-Discord hybrid bot that also is a website.
-Made for [Baalorlord on Twitch](https://twitch.tv/baalorlord), so quite a few
-things are hardcoded currently. If interest picks up and people want to use it
-elsewhere, I will move the stuff out of the repo.
+This is a custom install of [SpireBlight](https://github.com/Spireblight/Spireblight) for use on SquuBlix' twitch stream. 
+We currently aren't using discord integration, just the website + twitch bot. 
+
+Come say hello!
 
 ## Installation
 
