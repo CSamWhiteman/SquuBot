@@ -1425,6 +1425,7 @@ async def help_cmd(ctx: ContextType, name: str = ""):
             f"I am {__botname__} v{__version__}, made by {__author__}. I am running on Python "
             f"{sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro}, "
             f"my source code is available at {__github__}, and the website is {config.server.url}"
+            "This was customized by Sam Whiteman at https://github.com/CSamWhiteman/SquuBot."
         )
         return
 
@@ -1445,40 +1446,40 @@ async def help_cmd(ctx: ContextType, name: str = ""):
     )
 
 
-@command("support", "shoutout", "so")
-async def shoutout(ctx: ContextType, name: str):
-    """Give a shoutout to a fellow streamer."""
-    try:
-        chan = await TConn.fetch_channel(name)
-    except IndexError as e:
-        await ctx.send(e.args[0])
-        return
-    except HTTPException as e:
-        await ctx.send(e.message)
-        return
-
-    msg = [f"Go give a warm follow to https://twitch.tv/{chan.user.name} -"]
-
-    live: list[Stream] = await TConn.fetch_streams([chan.user.id])
-    if live:
-        stream = live[0]
-        game = stream.game_name
-        viewers = stream.viewer_count
-        started_at = stream.started_at
-        # somehow, doing now() - started_at triggers an error due to conflicting timestamps
-        td = datetime.timedelta(
-            seconds=(datetime.datetime.now().timestamp() - started_at.timestamp())
-        )
-        msg.append(
-            f"they are currently live with {viewers} viewers playing {game}! They have been live for {str(td).partition('.')[0]}"
-        )
-
-    else:
-        msg.append(
-            f"last time they were live, they were seen playing {chan.game_name}!"
-        )
-
-    await ctx.send(" ".join(msg))
+# @command("support", "shoutout", "so")
+# async def shoutout(ctx: ContextType, name: str):
+#     """Give a shoutout to a fellow streamer."""
+#     try:
+#         chan = await TConn.fetch_channel(name)
+#     except IndexError as e:
+#         await ctx.send(e.args[0])
+#         return
+#     except HTTPException as e:
+#         await ctx.send(e.message)
+#         return
+#
+#     msg = [f"Go give a warm follow to https://twitch.tv/{chan.user.name} -"]
+#
+#     live: list[Stream] = await TConn.fetch_streams([chan.user.id])
+#     if live:
+#         stream = live[0]
+#         game = stream.game_name
+#         viewers = stream.viewer_count
+#         started_at = stream.started_at
+#         # somehow, doing now() - started_at triggers an error due to conflicting timestamps
+#         td = datetime.timedelta(
+#             seconds=(datetime.datetime.now().timestamp() - started_at.timestamp())
+#         )
+#         msg.append(
+#             f"they are currently live with {viewers} viewers playing {game}! They have been live for {str(td).partition('.')[0]}"
+#         )
+#
+#     else:
+#         msg.append(
+#             f"last time they were live, they were seen playing {chan.game_name}!"
+#         )
+#
+#     await ctx.send(" ".join(msg))
 
 
 @command("title")
@@ -2493,6 +2494,29 @@ async def calculate_streak_cmd(ctx: ContextType):
     run_stats = get_all_run_stats()
     await ctx.reply(final.format(run_stats.streaks))
 
+# # TODO: Calculate how many attempts at this Asc took to get a heart kill
+# @command("climb")
+# async def calculate_climb(ctx: ContextType, char: str = ""):
+#     # Assume character is active player. How long since last win.
+#     match char:
+#         case "ironclad" | "ic" | "i":
+#             char = "Ironclad"
+#         case "silent" | "s":
+#             char = "Silent"
+#         case "defect" | "d":
+#             char = "Defect"
+#         case "watcher" | "wa":
+#             char = "Watcher"
+#         case _:
+#             if char is not None:
+#                 char = char.capitalize()  # might be a mod character
+#
+#     last_run = get_latest_run(char, True)
+#     # Count runs since with that character, return that value
+#     timestamp = str(last_run.timestamp)
+#     get_run_stats_by_date_string(timestamp)
+
+
 
 @command("pb")
 async def calculate_pb_cmd(ctx: ContextType, date_string: Optional[str] = None):
@@ -2643,10 +2667,10 @@ async def current_mastery_check(ctx: ContextType, save: Savefile):
 
 @with_savefile("cwbgh", "cwbg", optional_save=True)
 async def calipers(ctx: ContextType, save: Optional[Savefile]):
-    msg = "Calipers would be good here baalorCalipers baalorSmug"
+    msg = "Calipers would be good here."
     if save:
         if query("calipers") in save.relics_bare:
-            msg = "Calipers ARE good here! baalorCalipers baalorSmug"
+            msg = "Calipers ARE good here!"
     await ctx.reply(msg)
 
 
